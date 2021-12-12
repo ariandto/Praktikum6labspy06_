@@ -211,6 +211,7 @@ Output Jika Data Diinputkan
         nodata()
  ```
  ![no](https://github.com/ariandto/Praktikum6labspy06_/blob/main/sc/sc0.png)
+ 
 2) Function **ubah()** dijalankan berdasarkan nama
 - Memasukan nama sebagai key dan akan memunculkan isi data dari key tersebut
 - Jika salah memasukkan nama, maka akan mengeluarkan "data nama tidak ditemukan!"
