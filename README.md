@@ -40,7 +40,7 @@ def header():
 
 def nodata(): 
     header()          
-    print("|{0:^69}|".format("Data Not Found!!! Please Input Data first"))
+    print("|{0:^72}|".format("Data Not Found!!"))
     ruler()
 
 def tambah():
@@ -55,7 +55,7 @@ def tambah():
     print(f"Berhasil menambahkan data '{nama}' dengan NIM : {nim}!")
 
 def Tampilkan():
-    print("=========Daftar Mahasiswa=========")
+    print("============================Daftar Mahasiswa============================")
     if len(dbm) <= 0:  
         nodata()
     else:
@@ -171,8 +171,9 @@ def header():
 
 def nodata(): 
     header()          
-    print("|{0:^69}|".format("Data Not Found!!! Please Input Data first"))
+    print("|{0:^72}|".format("Data Not Found!!"))
     ruler()
+
 ```
  3. Membuat Function Program
 #### Tambah()
