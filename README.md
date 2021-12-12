@@ -170,20 +170,20 @@ def nodata():
 
 Output Tambah Data
 
-![Tammbah Data](https://github.com/ariandto/Praktikum6labspy06_/blob/main/sc/sc1.png)
+![Tambah Data](https://github.com/ariandto/Praktikum6labspy06_/blob/main/sc/sc1.png)
 
  #### Lihat()
  1) Apabila Dict `dbm` masih kosong maka akan memanggil function `nodata`
  ```python
  def Tampilkan():
-    print("=========Daftar Mahasiswa=========")
+    print("============================Daftar Mahasiswa============================")
     if len(dbm) <= 0:  
         nodata()
   ```
  
 Output Tidak Ada Data
 
-![Gambar 4](Screenshots/Tidak%20Ada%20Data.png)
+![nodata](https://github.com/ariandto/Praktikum6labspy06_/blob/main/sc/sc0.png)
 
 2) Program Lihat Data Dijalankan
 - Menggunakan looping untuk mengeluarkan data
@@ -198,9 +198,9 @@ else:
         ruler() 
 ```
 
-Ouput Jika Data Diinputkan
+Output Jika Data Diinputkan
 
-![Gambar 5](Screenshots/Lihat%20Data.png)
+![tampil](https://github.com/ariandto/Praktikum6labspy06_/blob/main/sc/sc2.png)
 
 #### Ubah()
 1) Apabila Dict `dbm` masih kosong maka akan memanggil function `nodata`
@@ -249,7 +249,8 @@ else:
 
 Output Ubah Nama
 
-![Gambar 6](Screenshots/Ubah%20Nama.png)
+![ubah](https://github.com/ariandto/Praktikum6labspy06_/blob/main/sc/sc5.png)
+![ubah1](https://github.com/ariandto/Praktikum6labspy06_/blob/main/sc/sc6.png)
 
 ##### Ubah NIM
 Memasukan NIM baru, NIM akan berubah, maka akan mengeluarkan "Berhasil merubah NIM!"
@@ -262,7 +263,7 @@ elif tanya == 2:
 
 Output Ubah NIM
 
-![Gambar 7](Screenshots/Ubah%20NIM.png)
+![ubah2](https://github.com/ariandto/Praktikum6labspy06_/blob/main/sc/sc7.png)
 
 ##### Ubah Nilai
 Memasukan nilai baru, nilai akan berubah, maka akan mengeluarkan "Berhasil merubah data nilai!"
@@ -278,7 +279,7 @@ elif tanya == 3:
 
 Output Ubah Nilai
 
-![Gambar 8](Screenshots/Ubah%20Nilai.png)
+![ubah3](https://github.com/ariandto/Praktikum6labspy06_/blob/main/sc/sc8.png)
 
 #### Hapus()
 1) Apabila Dict `dbm` masih kosong maka akan memanggil function `nodata`
@@ -304,7 +305,7 @@ else:
 
 Output Hapus Data
 
-![Gambar 9](Screenshots/Hapus%20Data.png)
+![ubah3](https://github.com/ariandto/Praktikum6labspy06_/blob/main/sc/sc9.png)
 
 #### Menu
 - Menggunakan infinite loop while True
